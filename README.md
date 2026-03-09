@@ -15,6 +15,7 @@ cd assignment-2-taskmaster-amirulz
 
 npm install
 
+
 ## Environment Variables
 
 Create .env file
@@ -25,23 +26,32 @@ DB_PASSWORD=password
 DB_NAME=taskmaster
 PORT=3000
 
+
 ## Run Server
 
 npx nodemon server.js
 
+
 ## API Endpoints
 
-Users
+### Users
 
 POST /users  
 GET /users  
 GET /users/:id  
 DELETE /users/:id  
 
-Tasks
+### Tasks
 
 POST /tasks  
 GET /tasks  
 GET /tasks/:id  
 PUT /tasks/:id  
 DELETE /tasks/:id
+
+
+## Database Setup
+
+Create the database:
+
+CREATE DATABASE taskmaster;
