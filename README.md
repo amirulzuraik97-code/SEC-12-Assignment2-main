@@ -2,6 +2,11 @@
 
 RESTful API built using ExpressJS, Sequelize, and PostgreSQL.
 
+## Description
+
+TaskMaster Pro API is a RESTful backend service built with ExpressJS, Sequelize, and PostgreSQL.  
+It allows users to create accounts and manage their tasks.
+
 ## Installation
 
 git clone https://github.com/amirulzuraik97-code/assignment-2-taskmaster-amirulz
